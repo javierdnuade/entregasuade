@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylereservas.css">
+    <title>Reservas</title>
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <div class="titulo">
+                <h1>Cantina Cachilo<br>Buenos Aires</h1>
+            </div>
+            <nav>   
+                <div class="navegador">
+                    <ul>
+                        <a href="informacion.html" class="btn">Información</a>
+                        <a href="carta.html" class="btn">Carta</a>
+                        <a href="reservas.html" class="btn">Reservas</a>
+                    </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h2 id="contacto">Contacto</h2>
+        <div class="formulario">
+            <div class="contacto_titulo">
+                <h2>Hace tu reserva por aca</h2>
+                <h3>Completá el siguiente con los datos solicitados y nos comunicaremos por Whatsapp.</h3>
+            </div>
+            <form>
+                <label for="nombre">Nombre completo</label><br>
+                <input type="text" placeholder="Escribe aqui tu nombre" name="nombre" id="nombre" required class="form_text">
+                <br><br>
+
+                <label for="email">Ingrese su email</label><br>
+                <input type="email" placeholder="ejemplo@gmail.com" name="email" id="email" required class="form_text">
+                <br><br>
+
+                <label for="telefono">Ingrese su telefono</label><br>
+                <input type="number" placeholder="11-1234-5678" name="telefono" id="telefono" required class="form_text">
+                <br><br>
+
+                <label for="asunto">Asunto</label><br>
+                <textarea name="asunto" id="asunto" cols="40" rows="2" required placeholder="Titulo del asunto" class="form_text"></textarea>
+                <br><br>
+            
+                <label for="mensaje">Escriba su mensaje</label><br>
+                <textarea name="mensaje" id="mensaje" cols="50" rows="10" required class="form_text"></textarea>
+                <br><br>
+            
+                <input class="btn" type="submit" value="Enviar">
+            </form>  
+        </div>
+
+        <div class="contacto_propio">
+            <h2>Recursos útiles</h2>
+                <h3>Telefonos <br>011-*4581-1984**4584-1263</h3>
+                <h3>Email<br>chichilo3554@hotmail.com</h3>
+        </div>
+    </main>
+</body>
+</html>

@@ -11,17 +11,14 @@
     font-family: 'Satisfy';
     src: url(/fuentes/Satisfy/Satisfy-Regular.ttf);
 }
-body {
-    background-image: url(fotos/cantinaafuera.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    width: auto;
-}
+
 .menu {
-    height: 200px;
+    height: 250px;
     position: relative;
+    box-shadow: 15px 5px 25px;
+    background-color: rgb(141, 73, 73);
+    z-index: 5;
+
 }
 
 .titulo {
@@ -61,32 +58,44 @@ body {
     background-color: white;
     transition-duration: 1.3s;
 }
-
-.principal {
+.carta {
+    height: 1200px;
+    background-image: url(fotos/cartafoto.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: auto;
     text-align: center;
-    margin-top: 200px;
-    height: 550px;
-    font-size: 2.5em;
-    color: aliceblue;
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+    padding-top: 100px;
+    font-family:'Poiret_One';
+    font-weight: bold;
+    font-size: 2.5rem;
+    width: 100%;
+    position: relative;
+    text-shadow: 2px 2px 15px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+
 }
 
-.texto1 {
- padding-bottom: 10px;
+.cartaizq {
+    width: 50%;
+    position:absolute;
+    left: 0;
+    padding-top: 200px;
+
 }
-.texto2 {
-    padding: 10px 0 60px 0;
-}
-.ganadores {
-    padding: 10px;
-    font-size: 1.5rem;
-}
-.ganadores h2{
-    margin-bottom: 50px;
-}
-.info_footer{
-    color: white;
-    font-size: 30px;
-    bottom: 0;
+.cartader {
     position: absolute;
+    width: 50%;
+    right: 0;
+    padding-top: 200px;
 }
+.carta h3 {
+    padding-bottom: 25px;
+    font-size: 2rem;
+}
+.textofinal {
+    position: relative;
+    padding-top: 650px;
+}
+
